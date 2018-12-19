@@ -6,6 +6,7 @@ import {HttpClientModule} from '@angular/common/http';
 describe('Medico Componente', () => {
 
   let component: MedicoComponent;
+
   let fixture: ComponentFixture<MedicoComponent>;
 
   beforeEach(() => {
