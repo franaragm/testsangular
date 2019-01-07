@@ -45,7 +45,7 @@ describe('RouterMedicoComponent', () => {
   });
 
   it('Debe de redireccionar a Médico cuando se guarde', () => {
-    const router = TestBed.get(Router);
+    const router: FakeRouter = TestBed.get(Router);
     const spy = spyOn(router, 'navigate');
 
     component.guardarMedico();
